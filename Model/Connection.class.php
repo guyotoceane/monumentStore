@@ -9,7 +9,7 @@ class Connection {
 
     public function __construct() {
         $this->host = 'localhost';
-        $this->dbname = 'MonumentStore';
+        $this->dbname = 'monumentstore';
         $this->username = 'root';
         $this->password = 'mysql';
 		try{

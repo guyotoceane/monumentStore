@@ -16,18 +16,18 @@ class userController{
 
     public function login(){
         $page = 'login';
-        require('./View/main.php');
+        require('./View/layout.php');
     }
 
     public function create()
     {
-        $page = 'create';
-        require('./View/main.php');
+        $page = 'createUser';
+        require('./View/layout.php');
     }
 
     public function unauthorized(){
         $page = 'unauthorized';
-        require('./View/main.php');
+        require('./View/layout.php');
     }
 
     public function listUser(){
@@ -35,7 +35,7 @@ class userController{
 
             $page= 'listUser';
             $users= $this->userManager->findAll();
-            require('./View/main.php');
+            require('./View/layout.php');
 
         }else{
 			$this->unauthorized();
@@ -48,7 +48,7 @@ class userController{
             $page = 'deleteUser';
             $result = $this->userManager->findOne($_GET["userId"]);
 
-            require ('./View/main.php');
+            require ('./View/layout.php');
         }else{
             $this->unauthorized();
         }
@@ -78,7 +78,7 @@ class userController{
 
         }
 
-        require('./View/main.php');
+        require('./View/layout.php');
 
     }
 
@@ -87,7 +87,7 @@ class userController{
             $this->userManager->logout();
         }
 
-        require('./View/main.php');
+        require('./View/layout.php');
     }
 
     public function doCreate(){
