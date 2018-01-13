@@ -72,7 +72,7 @@ session_start();
 									<a class="nav-link" href="#">Produit</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Panier</a>
+									<a class="nav-link" href="index.php?ctrl=shop&action=cart">Panier</a>
 								</li>
 							</ul>
 						</li>

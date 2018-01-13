@@ -2,7 +2,12 @@
 
 	
 #navigation nav{
+	background-image: url("../images/background.jpg");
 	background-color: #E8B449;
+	background-repeat : no-repeat;
+	background-size: 100% auto;
+	background-position: bottom; 
+	
 	height:100%;
 }
 
