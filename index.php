@@ -14,8 +14,8 @@
 		$ctrl = $_GET['ctrl'];
 		$action = $_GET['action'];
 	}else{
-		$ctrl = 'user';
-		$action = 'login';
+		$ctrl = 'product';
+		$action = 'index';
 	}
 
 	

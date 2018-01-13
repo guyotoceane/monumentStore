@@ -2,12 +2,20 @@
 
 	
 #navigation nav{
-	background-color: #E8B449;
+	background-image: url("../images/background.jpg");
+	background-repeat : no-repeat;
+	background-size: 100% auto;
+	background-position: bottom; 
+	
 	height:100%;
 }
 
 #navigation .menu>ul{
 	list-style-type:none;
+}
+
+#navigation .menu>ul>li>ul>li>a{
+	color:white;
 }
 
 #navigation .menu a{
@@ -58,11 +66,51 @@
 	}
 }
 
+/** Cartel - affiche tous les produits index **/
+.bloc-cartel{
+	background-color: #eee;
+	box-shadow: 2px 2px 12px #aaa;
+	margin-top: 20px;
+	text-align: center;
+
+	margin-left: 40px;
+
+	
+	
+}
+
+.bloc-cartel h2 {
+	font-size: 22px;
+	margin-top: 15px;
+	font-family: serif;
+	
+}
+
+.bloc-cartel .bloc_img{
+	height: 300px; 
+	overflow:hidden;
+}
+
+.bloc-cartel .img_batiment{
+	font-size: 22px;
+	margin-top: 5px;
+	font-family: serif;
+	opacity:0.8;
+	width: 100%;
+ 
+	margin:  -100px 0; /**recadrage**/
+
+}
+.bloc-cartel:hover .img_batiment{
+	opacity:1;
+}
 
 
+/** Product **/
 
-
-
+#product{
+		margin-top: 20px;
+}
 
 
 
