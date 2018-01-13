@@ -11,12 +11,20 @@ session_start();
 
 
 	<!-- A bouclé -->
-	<div class="col-md-3 bloc-cartel">
+	
+	
+	
+	<?php foreach($product as $product){ ?>
 
-		<img src="Assets/images/favicon.png" alt="batiment" class="img_batiment"> 
-		<h2>La Tout Elle phel </h2>
-		<p>15000 €</p>
-	</div>
+		<div class="col-md-3 bloc-cartel">
+			<div class="bloc_img">
+				<img src="Assets/images/<?php echo $product['img']?>" alt="batiment" class="img_batiment"> 
+			</div>
+			<h2><?php echo $product['name']?> </h2>
+			<p><?php echo $product['prix']?> €</p>
+		</div>
+	<?php } ?>
+
 	
 	
 	<!-- -->

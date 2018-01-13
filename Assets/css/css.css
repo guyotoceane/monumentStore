@@ -72,7 +72,11 @@
 	box-shadow: 2px 2px 12px #aaa;
 	margin-top: 20px;
 	text-align: center;
-	height: 20%;
+
+	margin-left: 40px;
+
+	
+	
 }
 
 .bloc-cartel h2 {
@@ -81,11 +85,20 @@
 	font-family: serif;
 	
 }
+
+.bloc-cartel .bloc_img{
+	height: 300px; 
+	overflow:hidden;
+}
+
 .bloc-cartel .img_batiment{
 	font-size: 22px;
 	margin-top: 5px;
 	font-family: serif;
 	opacity:0.8;
+	width: 100%;
+ 
+	margin:  -100px 0; /**recadrage**/
 
 }
 .bloc-cartel:hover .img_batiment{

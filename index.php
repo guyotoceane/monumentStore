@@ -14,7 +14,7 @@
 		$ctrl = $_GET['ctrl'];
 		$action = $_GET['action'];
 	}else{
-		$ctrl = 'shop';
+		$ctrl = 'product';
 		$action = 'index';
 	}
 

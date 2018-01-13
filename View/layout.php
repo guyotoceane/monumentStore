@@ -34,7 +34,7 @@ session_start();
 					<span class="navbar-toggler-icon"></span>
 				</button>
 		
-				<a class="navbar-brand" href="index.php?ctrl=shop&action=index" ><h1>Paris Store</h1></a>
+				<a class="navbar-brand" href="index.php?ctrl=product&action=index" ><h1>Paris Store</h1></a>
 		
 
 				<div class="menu justify-content-end collapse navbar-collapse" id="navbarColor01">
@@ -66,10 +66,10 @@ session_start();
 						<li>
 							<ul class="menu-lien navbar-nav justify-content-end">
 								<li class="nav-item active">
-									<a class="nav-link" href="index.php?ctrl=shop&action=index">Accueil</a>
+									<a class="nav-link" href="index.php?ctrl=product&action=index">Accueil</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="index.php?ctrl=shop&action=product">page tesst produit</a>
+									<a class="nav-link" href="index.php?ctrl=product&action=product">page tesst produit</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="#">Monuments</a>
@@ -78,7 +78,7 @@ session_start();
 									<a class="nav-link" href="#">Jardin</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="index.php?ctrl=shop&action=cart">Panier</a>
+									<a class="nav-link" href="index.php?ctrl=product&action=cart">Panier</a>
 								</li>
 							</ul>
 						</li>
