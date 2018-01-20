@@ -34,6 +34,11 @@
 	border-left : 2px solid white;
 }
 
+#navigation .menu-lien li:first-child{
+	text-align:center;
+	border-left : none;
+}
+
 #navigation .menu>ul{
 	margin-bottom :0;			
 }
