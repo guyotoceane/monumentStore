@@ -16,7 +16,7 @@ class ProductManager {
 
 	public function findAll() {
 
- 		$usersQuery = $this->db->prepare("SELECT * FROM shop");
+ 		$usersQuery = $this->db->prepare("SELECT * FROM shop ");
  		$usersQuery->execute();
  		$result =$usersQuery->fetchAll();
 
@@ -28,11 +28,21 @@ class ProductManager {
 	public final  function findOne($id) {
 
 
-		$usersQuery = $this->db->prepare( "SELECT * FROM shop WHERE id =".$id);
+		$usersQuery = $this->db->prepare( "SELECT * FROM shop WHERE id = ".$id.";");
  		$usersQuery->execute();
- 		$result =$usersQuery->fetchObject();
+		$result =$usersQuery->fetchAll();
+ 		/*$result =$usersQuery->fetchObject();
  		$result = (array)$result;
- 		$result = new Product($result);
+ 		$result = new Product($result);*/
+
+ 		return $result;
+    
+	}
+	
+	public function findTag($tag) {
+ 		$usersQuery = $this->db->prepare("SELECT * FROM shop WHERE type = '".$tag."';");
+ 		$usersQuery->execute();
+ 		$result =$usersQuery->fetchAll();
 
  		return $result;
     

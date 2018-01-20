@@ -1,18 +1,10 @@
-<!-- View/index.php -->
-
-<!---->
+<!-- View/tag.php -->
 <?php
 //session_start();
 ?>
-
 <div class=" container">
 <div class= "row">
 
-
-	<!-- A bouclé -->
-	
-	
-	
 	<?php foreach($product as $product){ ?>
 
 			<a class="col-md-3 bloc-cartel" href="index.php?ctrl=product&action=product&id=<?php echo $product['id']?>">

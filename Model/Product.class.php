@@ -63,7 +63,7 @@ class Product {
 		return $this->optionName;	
 	}
 	
-	public function setOptionPrix($postalCode1){
+	public function setOptionPrix($optionPrix){
 		$this->optionPrix = $optionPrix;	
 	}
 	
