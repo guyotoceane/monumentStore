@@ -1,6 +1,6 @@
 <?php
 	require('Model/User.class.php');
-	session_start(); 
+	session_start();
 ?>
 
 <?php
@@ -18,7 +18,7 @@
 		$action = 'index';
 	}
 
-	
+
 	require_once('/Controller/' . $ctrl  . 'Controller.php');
 
 	$ctrl = $ctrl . 'Controller';

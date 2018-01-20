@@ -2,8 +2,8 @@
 
 
 <?php
-session_start(); 
-?>
+//session_start();
+//?>
 
 <section class="row" id="product">
 	<div class="col-md-3">

@@ -1,10 +1,5 @@
 <!-- View/cart.php -->
 
-
-<?php
-session_start(); 
-
-?>
 <table class="table table-bordered">
     <thead>
 		<tr>
