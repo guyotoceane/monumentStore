@@ -22,7 +22,9 @@ class productController{
     }
 
 	public function product(){
+		$id = $_GET['id'];
         $page = 'product';
+		$product= $this->productManager->findOne($id);
         require('./View/layout.php');
     }
 
@@ -32,7 +34,12 @@ class productController{
         require('./View/layout.php');
     }
 
-	
+	public function tag(){
+		$tag = $_GET['tag'];
+        $page = 'tag';
+		$product= $this->productManager->findTag($tag);
+        require('./View/layout.php');
+    }
 
 	
 

@@ -67,13 +67,10 @@
 									<a class="nav-link" href="index.php?ctrl=product&action=index">Accueil</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="index.php?ctrl=product&action=product">page tesst produit</a>
+									<a class="nav-link" href="index.php?ctrl=product&action=tag&tag=monument">Monuments</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Monuments</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Jardin</a>
+									<a class="nav-link" href="index.php?ctrl=product&action=tag&tag=jardin">Jardin</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="index.php?ctrl=product&action=cart">Panier</a>
