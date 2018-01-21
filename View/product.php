@@ -16,7 +16,7 @@
 		<p><?php echo $product['description']?></p>					
 	
 			
-		<form action="" method="post">
+		<form action="index.php?ctrl=cart&action=add" method="post">
 			<div>
 				<input type="checkbox" id="option" name="option"> 			
 				<span id="option"><?php echo $product['optionName']?></span>
@@ -25,6 +25,8 @@
 
 					
 			</div>
+
+            <input type="hidden" name="idProduct" value="<?php echo $product['id']?>">
 			
 			<input type="submit" id="submit-acheter" value="Acheter">	
 		<form>

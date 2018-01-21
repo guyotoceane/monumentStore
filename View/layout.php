@@ -73,7 +73,7 @@
 									<a class="nav-link" href="index.php?ctrl=product&action=tag&tag=jardin">Jardin</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="index.php?ctrl=product&action=cart">Panier</a>
+									<a class="nav-link" href="index.php?ctrl=cart&action=cart">Panier</a>
 								</li>
 							</ul>
 						</li>

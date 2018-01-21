@@ -129,5 +129,9 @@ a:-webkit-any-link {
 		margin-top: 20px;
 }
 
+/** Cart **/
+input[type="number"]{
+	width: 50px;
+}
 
 

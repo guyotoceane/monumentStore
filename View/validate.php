@@ -1,0 +1,1 @@
+<h1>Merci de votre achat, vous allez recevoir un mail de confirmation</h1>

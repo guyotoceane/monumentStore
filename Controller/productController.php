@@ -16,10 +16,7 @@ class productController{
     }
 	
 
-    public function cart(){
-        $page = 'cart';
-        require('./View/layout.php');
-    }
+
 
 	public function product(){
 		$id = $_GET['id'];

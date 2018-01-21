@@ -1,5 +1,5 @@
 <!-- View/login.php --><div class="container">
-    <form action="index.php?ctrl=user&action=doLogin" method="POST" name="login" id="login_form">
+    <form action="index.php" method="POST" name="login" id="login_form">
 
 		<?php if(!empty($info)){ ?>
 			<div>
